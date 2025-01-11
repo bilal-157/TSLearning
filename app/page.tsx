@@ -2,10 +2,19 @@ import React from 'react'
 
 const page = () => {
   
-  let name:string = "bilal";
-  name = "billa";
+  type objStructure = {
+     
+    name:string,
+    age:number,
+    class:string
+  }
 
-  console.log(name)
+  const data:objStructure = {
+    name:"bilal",
+    age:23,
+    class:"bscs"
+  } 
+  console.log(data)
   return (
 
     <div>
